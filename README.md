@@ -1,9 +1,9 @@
-﻿# Machine Learning Statement Checker
+# Machine Learning Statement Checker
 ## A simple ML.NET Statement checking application.
 
 
 
-### ⚠️__Note__⚠️
+### ⚠️ ___Note___ ⚠️
 * To run the Source code, you **absolutely** require Visual Studio 2019+ and .NET 6+
 * Dependencies are:
 	1. Microsoft.ML
@@ -13,4 +13,4 @@
 
 
 
-### __Any Issues can be opened up in the Issues section
+### ___Any Issues can be opened up in the Issues section___
