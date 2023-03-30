@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Statement_check</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.6.0" />
+  </ItemGroup>
+  <ItemGroup Label="Check">
+    <None Include="Check.consumption.cs">
+      <DependentUpon>Check.mbconfig</DependentUpon>
+    </None>
+    <None Include="Check.training.cs">
+      <DependentUpon>Check.mbconfig</DependentUpon>
+    </None>
+    <None Include="Check.zip">
+      <DependentUpon>Check.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
