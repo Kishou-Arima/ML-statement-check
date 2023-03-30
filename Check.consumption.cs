@@ -45,7 +45,7 @@ namespace Statement_check
 
             [ColumnName(@"Score")]
             public float[] Score { get; set; }
-            public int Prediction { get; internal set; }
+            
         }
 
         #endregion

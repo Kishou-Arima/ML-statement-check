@@ -20,7 +20,7 @@ namespace Statement_check
 
             //Load model and predict output
             var result = Check.Predict(sampleData);
-            var statement =(result.Prediction==0)?"Negative":"Positive";
+            var statement =(result.PredictedLabel==0)?"Negative":"Positive";
             label1.Text = statement.ToString();
         }
     }
